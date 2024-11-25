@@ -1,0 +1,48 @@
+
+body{margin: 0;
+padding: 0;
+}
+#contenedor_caja_pequena{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 25px;
+}
+
+#caja_azul{background-color:#90b3c9 ;
+height: 10vh;
+width: 100%;
+}
+
+
+#caja_roja_grande{background-color:#a7304b;
+height: 200px;
+width: 100%;}
+
+
+.caja_pequena_larga{
+    background-color: #a7304b;
+    width: 90%;
+    height: 120px;
+}
+
+
+.contenedor_caja_mas_pequena{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    gap: 5px;
+}
+
+.caja_mas_pequena{
+    background-color: #a7304b;
+    width: 50%;
+    height:100px;
+}
+
+#caja_roja_grande_2{
+    background-color: #a7304b;
+    height: 100px;
+    width:100%    ;
+}
